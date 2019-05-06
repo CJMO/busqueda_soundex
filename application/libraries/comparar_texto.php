@@ -4,20 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Comparar_texto {
     
     private $CI;
-    
-    private $tabla_codificacion = array(
-        0 => "P",
-        1 => array("B", "V"),
-        2 => array("F", "H"),
-        3 => array("T", "D"),        
-        4 => array("S", "Z","C","X"),
-        5 => array("Y", "LL", "L"),
-        6 => array("N", "Ñ", "M"),
-        7 => array("Q", "K"),
-        8 => array("G", "J"),
-        9 => array("R", "RR")
-    );
-    
+   
     public function comparar($nombre){
         
         $this->CI =& get_instance();
