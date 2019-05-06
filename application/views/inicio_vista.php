@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <form action="<?= base_url();?>buscar" method="POST">
           <div class="form-group">
             <label for="nombre">Nombre a buscar</label>
-            <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="ayuda_nombre" placeholder="Ej: Yolanda Hernandez">
+            <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="ayuda_nombre" placeholder="Ej: Yolanda Hernandez" required>
             <small id="ayuda_nombre" class="form-text text-muted">Segmentos en formato nombre-apellido o apellido-nombre</small>
           </div>
           
